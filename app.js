@@ -1,5 +1,7 @@
 const container = document.querySelector(".container")
 const image = document.querySelector("#music-image")
+const title=document.querySelector('#music-details .title')
+const singer=document.querySelector('#music-details .singer')
 
 
 
