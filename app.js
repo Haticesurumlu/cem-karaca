@@ -1,3 +1,5 @@
 const player= new MusicPlayer(musicList);
 
-player.getMusic();
+const music=player.getMusic();
+
+console.log(music.getName());
