@@ -14,8 +14,8 @@ class Music {
 
 const musicList= [ 
 
-    new Music("Kerkük Zindanı","Cem Karaca","1.jpeg","1.mp3"),
-    new Music("Oy Gülüm","Cem Karaca","2.jpeg","2.mp3"),
+    new Music("Kerkük Zindanı","Cem Karaca","/img/CemBaba(1).jfif","1.mp3"),
+    new Music("Oy Gülüm","Cem Karaca","/img/CemBaba(1).jpg","2.mp3"),
     new Music("Islak Islak","Cem Karaca","3.jpeg","3.mp3"),
     new Music("Deniz Üstü Köpürür","Cem Karaca","1.jpeg","1.mp3"),
     new Music("Raptiye Rap Rap","Cem Karaca","2.jpeg","2.mp3"),
