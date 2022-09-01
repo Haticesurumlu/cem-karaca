@@ -8,6 +8,8 @@ const next = document.querySelector('#controls #next')
 const duration= document.querySelector("#duration")
 const currentTime=document.querySelector("#current-time")
 const progressBar = document.querySelector("#progress-bar")
+const volume=document.querySelector("#volume")
+const volumeBar =document.querySelector("#volume-bar")
 
 
 
