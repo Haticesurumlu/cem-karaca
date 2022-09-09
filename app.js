@@ -113,3 +113,18 @@ volume.addEventListener("click", () => {
         volumeBar.value = 100;
     }
 });
+
+const displayMusicList=(list)=>{
+for(let i=0; i < list.length ; i++) {
+    let liTag=`
+    <li class="list-group-item d-flex justify-content-between align-items-center"> 
+<span>Boşver Nilüfer</span>
+<span class="badge-bg-primary rounded-pill">3:40</span>
+</li>
+    
+    `
+}
+
+
+
+}
