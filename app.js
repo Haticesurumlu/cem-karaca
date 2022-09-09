@@ -118,11 +118,17 @@ const displayMusicList=(list)=>{
 for(let i=0; i < list.length ; i++) {
     let liTag=`
     <li class="list-group-item d-flex justify-content-between align-items-center"> 
-<span>Boşver Nilüfer</span>
-<span class="badge-bg-primary rounded-pill">3:40</span>
+<span>${list[i].getName()}</span>
+<span id="music-${i}"class="badge-bg-primary rounded-pill"> </span>
+<audio class="music-${i}" src="mp3/${list[i].file}"></audio>
+
 </li>
     
-    `
+    `:
+
+    let liAudioDuration= ul.querySelector('#music-${i}');
+    let liAudioTag=ul.querySelector(".music-${i}")
+    ul.insertAdjacentHTML("beforeend",liTag);
 }
 
 
