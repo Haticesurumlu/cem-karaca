@@ -16,6 +16,7 @@ const player = new MusicPlayer(musicList);
 window.addEventListener("load", () => {
     let music = player.getMusic();
     displayMusic(music);
+    displayMusicList(player.musicList);
 });
 
 function displayMusic(music) {
