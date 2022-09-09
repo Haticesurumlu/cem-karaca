@@ -127,7 +127,12 @@ for(let i=0; i < list.length ; i++) {
     `:
 
     let liAudioDuration= ul.querySelector('#music-${i}');
-    let liAudioTag=ul.querySelector(".music-${i}")
+    let liAudioTag=ul.querySelector(".music-${i}");
+
+    liAudioTag.addEventListener("loadeddata", ()=>{
+console.log(liAudioTag.duration);
+
+    });
     ul.insertAdjacentHTML("beforeend",liTag);
 }
 
