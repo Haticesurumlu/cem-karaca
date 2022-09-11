@@ -143,5 +143,6 @@ const displayMusicList = (list) => {
 
 const selectedMusic=(li)=> {
     player.index=li.getAttribute("li-index");
-    displayMusic(player.getMusic())
+    displayMusic(player.getMusic());
+    playMusic();
 }
