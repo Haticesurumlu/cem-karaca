@@ -163,3 +163,7 @@ if(li.getAttribute("li-index")==player.index){
 }
 
 }}
+
+audio.addEventListener("ended",()=>{
+    nextMusic();
+})
