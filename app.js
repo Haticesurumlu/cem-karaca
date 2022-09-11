@@ -18,6 +18,7 @@ window.addEventListener("load", () => {
     let music = player.getMusic();
     displayMusic(music);
     displayMusicList(player.musicList);
+    isPlayingNow();
 });
 
 function displayMusic(music) {
@@ -45,6 +46,7 @@ const prevMusic = () => {
     let music = player.getMusic();
     displayMusic(music);
     playMusic();
+    isPlayingNow();
 }
 
 const nextMusic = () => {
@@ -52,6 +54,7 @@ const nextMusic = () => {
     let music = player.getMusic();
     displayMusic(music);
     playMusic();
+    isPlayingNow();
 }
 
 const pauseMusic = () => {
@@ -145,4 +148,18 @@ const selectedMusic=(li)=> {
     player.index=li.getAttribute("li-index");
     displayMusic(player.getMusic());
     playMusic();
+    isPlayingNow();
 }
+
+
+const isPlayingNow=() =>{
+  for(let li of ul.querySelectorAll("li")){
+if(li.classList.contains("playing")){
+    li.classList.remove("playing");
+}
+ 
+if(li.getAttribute("li-index")==player.index){
+    li.classList.add("playing")
+}
+
+}}
