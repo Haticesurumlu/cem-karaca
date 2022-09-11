@@ -32,9 +32,13 @@ play.addEventListener("click", () => {
     isMusicPlay ? pauseMusic() : playMusic();
 });
 
-prev.addEventListener("click", () => { prevMusic(); });
+prev.addEventListener("click", () => {
+    prevMusic();
+});
 
-next.addEventListener("click", () => { nextMusic(); });
+next.addEventListener("click", () => {
+    nextMusic();
+});
 
 const prevMusic = () => {
     player.prev();
@@ -65,7 +69,7 @@ const playMusic = () => {
 const calculateTime = (toplamSaniye) => {
     const dakika = Math.floor(toplamSaniye / 60);
     const saniye = Math.floor(toplamSaniye % 60);
-    const guncellenenSaniye = saniye < 10 ? `0${saniye}`: `${saniye}`;
+    const guncellenenSaniye = saniye < 10 ? `0${saniye}` : `${saniye}`;
     const sonuc = `${dakika}:${guncellenenSaniye}`;
     return sonuc;
 }
@@ -90,7 +94,7 @@ let sesDurumu = "sesli";
 volumeBar.addEventListener("input", (e) => {
     const value = e.target.value;
     audio.volume = value / 100;
-    if(value == 0) {
+    if (value == 0) {
         audio.muted = true;
         sesDurumu = "sessiz";
         volume.classList = "fa-solid fa-volume-xmark";
@@ -102,7 +106,7 @@ volumeBar.addEventListener("input", (e) => {
 });
 
 volume.addEventListener("click", () => {
-    if(sesDurumu==="sesli") {
+    if (sesDurumu === "sesli") {
         audio.muted = true;
         sesDurumu = "sessiz";
         volume.classList = "fa-solid fa-volume-xmark";
@@ -116,9 +120,9 @@ volume.addEventListener("click", () => {
 });
 
 const displayMusicList = (list) => {
-    for(let i=0; i < list.length; i++) {
+    for (let i = 0; i < list.length; i++) {
         let liTag = `
-            <li class="list-group-item d-flex justify-content-between align-items-center">
+            <li onclick="selectedMusic(this)" class="list-group-item d-flex justify-content-between align-items-center">
                 <span>${list[i].getName()}</span>
                 <span id="music-${i}" class="badge bg-primary rounded-pill"></span>
                 <audio class="music-${i}" src="mp3/${list[i].file}"></audio>
