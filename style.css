@@ -3,6 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+ 
 }
 
 .container {
@@ -25,3 +26,5 @@ li.playing {
     background-color: #0b5eb7;
     color: #fff;
 }
+
+
