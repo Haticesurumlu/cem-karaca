@@ -22,8 +22,8 @@ https://www.loom.com/share/058ec4f48f264f91a97128fb32f8af32
 Muhtar Cem Karaca (5 April 1945 – 8 February 2004) was a prominent Turkish rock musician and one of the most important figures in the Anatolian rock movement.He was a graduate of Robert College. He worked with various Turkish rock bands such as Apaşlar, Kardaşlar, Moğollar and Dervişan. With these bands, he brought a new understanding and interpretation to Turkish rock.
 
 
-##Discography
-###45s
+## Discography
+### 45s
 -Emrah/Karacaoğlan (1967) (with Apaşlar)
 -Hudey / Vahşet / Bang Bang / Shakin' All Over (1967) (with Apaşlar)
 -Emrah / Hücum / Karacaoğlan / Ayşen (1967) (with Apaşlar)
@@ -59,7 +59,7 @@ Muhtar Cem Karaca (5 April 1945 – 8 February 2004) was a prominent Turkish roc
 -Parka/İhtarname (1976) (with Dervişan)
 -Mor Perşembe/Bir Mirasyediye Ağıt (1977) (with Dervişan)
 -1 Mayıs/Durduramayacaklar Halkın Coşkun Akan Selini (1977) (with Dervişan)
-###LPs
+### LPs
 -Apaşlar-Kardaşlar (1972)
 -Cem Karaca'nın Apaşlar, Kardaşlar, Moğollar ve Ferdy Klein Orkestrasına Teşekkürleriyle (1974)
 -Nem Kaldı (1975)
@@ -70,20 +70,20 @@ Muhtar Cem Karaca (5 April 1945 – 8 February 2004) was a prominent Turkish roc
 -Bekle Beni (1982) (It was sold as tape only)
 -Die Kanaken (1984)
 -Merhaba Gençler ve Her Zaman Genç Kalanlar (1987) (It was sold as compact cassette and CD)
-###Other albums
+### Other albums
 -Töre (1988) (It was sold as CD) by Oğuz Abadan Orchestra
 -Yiyin Efendiler (1990)
 -Nerde Kalmistik (1992)
 -Bindik Bir Alamete (1999)
 -Kahpe Bizans (2000)
 -Hayvan Terli (2004) (Single)
-###Collection albums
--The Best of Cem Karaca Volume 1 (1996)
--The Best of Cem Karaca Volume 2 (1997)
--The Best of Cem Karaca Volume 3 (2000)
--The Best of Cem Karaca Volume 4 (2001)
--The Best of Cem Karaca Volume 5 (2002)
--Ölümsüzler (Immortals) (2004) (posthumously)
--Ölümsüzler 2 (Immortals 2) (2005) (posthumously)
--Mutlaka Yavrum (Absolutely, baby) (2006) (posthumously)
+### Collection albums
+- The Best of Cem Karaca Volume 1 (1996)
+- The Best of Cem Karaca Volume 2 (1997)
+- The Best of Cem Karaca Volume 3 (2000)
+- The Best of Cem Karaca Volume 4 (2001)
+- The Best of Cem Karaca Volume 5 (2002)
+- Ölümsüzler (Immortals) (2004) (posthumously)
+- Ölümsüzler 2 (Immortals 2) (2005) (posthumously)
+- Mutlaka Yavrum (Absolutely, baby) (2006) (posthumously)
 
